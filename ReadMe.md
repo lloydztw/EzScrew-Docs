@@ -33,9 +33,11 @@ A Screw Detection server written in pytorch.
 
 - nVidia CUDA tool kits 11.7 (或 11.3)
     - https://developer.nvidia.com/cuda-11-7-0-download-archive
+    - 如果使用純cpu模式,則不需要 CUDA
 
 - nVidia cuDnn 11.x
     - https://developer.nvidia.com/rdp/cudnn-download
+    - 如果使用純cpu模式,則不需要 cuDnn
 
 - 7z 19.00 版 (一定要此版)
     - https://www.7-zip.org/a/7z1900-x64.exe
